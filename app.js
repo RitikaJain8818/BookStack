@@ -18,11 +18,11 @@ class UI{
 
         const row=document.createElement('tr');
         row.innerHTML=`
-        <td>${book.title}</td>
-        <td>${book.author}</td>
-        <td>${book.genre}</td>
-        <td>${book.isbn}</td>
-        <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+        <td style="font-size:16px"><strong>${book.title}</strong></td>
+        <td style="font-size:16px"><strong>${book.author}</strong></td>
+        <td style="font-size:16px"><strong>${book.genre}</strong></td>
+        <td style="font-size:16px"><strong>${book.isbn}</strong></td>
+        <td style="font-size:16px"><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
         `;
         list.appendChild(row);
     }
